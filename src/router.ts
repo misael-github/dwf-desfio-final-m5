@@ -45,16 +45,10 @@ export function initRouter(container: Element) {
     }
   }
 
-  if (location.pathname == "/") {
-    goTo("/welcome");
-  } else if(location.host.includes("github.io")){
-   goTo("/desafio-m5")
-  }
-  
-  else {
-    handleRoute(location.pathname);
-  }
-
+  if (location.host.includes("github.io")) {
+    goTo("/desafio-m5");
+  } 
+ 
   window.onpopstate = function () {
     handleRoute(location.pathname);
   };
