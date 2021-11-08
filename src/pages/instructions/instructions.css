@@ -1,0 +1,18 @@
+
+.instructions {
+    height: 100vh;
+    padding: 129px 31px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:var( --color-title)
+  }
+  
+  @media (min-width: 769px) {
+    .instructions {
+      max-width: 500px;
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+    
+  }
