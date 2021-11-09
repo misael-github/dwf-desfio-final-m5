@@ -1,0 +1,2 @@
+.welcome{display:flex;flex-direction:column;height:100vh;justify-content:space-between;padding:50px 27px 0;width:100%}@media (min-width:769px){.welcome{display:flex;flex-direction:column;justify-content:space-between;margin:0 auto;max-width:500px}}.welcome__title{margin:0 auto;width:285px}@media (min-width:769px){.welcome__title{width:350px}}
+/*# sourceMappingURL=index.d574caac.css.map */

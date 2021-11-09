@@ -9,7 +9,7 @@ const routes = [
     component: initPageWelcome,
   },
   {
-    path: /\/dwf-desafio-final-m5/,
+    path: /\/piedra-papel-o-tijera/,
     component: initPageWelcome,
   },
   {
@@ -52,7 +52,7 @@ export function initRouter(container: Element) {
   }
 
   if (location.host.includes("github.io")) {
-    goTo("/dwf-desafio-final-m5");
+    goTo("/piedra-papel-o-tijera");
   } 
  
   window.onpopstate = function () {
