@@ -1,5 +1,5 @@
 ## Desadio final Módulo 5 
-### https://misael-github.github.io/dwf-m5-desafio-final/
+### https://misael-github.github.io/piedra-papel-o-tijera/
 Consigna:
 
 Para que pongas en práctica todo lo que vimos, te proponemos que crees una app para jugar a piedra, papel o tijera y la subas a GitHub Pages.
