@@ -9,7 +9,7 @@ const routes = [
     component: initPageWelcome,
   },
   {
-    path: /\/dwf-m5-desafio-final/,
+    path: /\/dwf-desafio-final-m5/,
     component: initPageWelcome,
   },
   {
@@ -52,7 +52,7 @@ export function initRouter(container: Element) {
   }
 
   if (location.host.includes("github.io")) {
-    goTo("/desafio-m5");
+    goTo("/dwf-desafio-final-m5");
   } 
  
   window.onpopstate = function () {
