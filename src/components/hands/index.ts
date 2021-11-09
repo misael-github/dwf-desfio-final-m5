@@ -36,7 +36,6 @@ export class Hands extends HTMLElement {
     }
     .tijera, .piedra, .papel {
       height: 150px;
-      color: rgb(248, 208, 156);
     }
     @media(min-width: 769px){
       .tijera, .piedra, .papel {

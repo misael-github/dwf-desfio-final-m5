@@ -1,5 +1,6 @@
 import { state } from "../../state";
 
+
 export function initPageResults(params) {
   const currentState = state.getState();
 

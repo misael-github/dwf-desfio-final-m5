@@ -3,6 +3,7 @@ const piedraImg = require("url:../../../../src/assets/piedra2.png");
 const papelImg = require("url:../../../../src/assets/papel2.png");
 const tijeraImg = require("url:../../../../src/assets/tijera2.png");
 
+
 export class UserHands extends HTMLElement {
   shadow: ShadowRoot;
   type: string;
@@ -33,8 +34,6 @@ export class UserHands extends HTMLElement {
         width: 300px;
         align-items: flex-end;
         overflow: hidden;
-        margin:0px  auto;
-        position:absolute
       }
       @media(min-width: 769px){
         .container {

@@ -4,6 +4,7 @@ const piedraImg = require("url:../../../../src/assets/piedra2.png");
 const papelImg = require("url:../../../../src/assets/papel2.png");
 const tijeraImg = require("url:../../../../src/assets/tijera2.png");
 
+
 export class ComputerHands extends HTMLElement {
   shadow: ShadowRoot;
   type: string;
