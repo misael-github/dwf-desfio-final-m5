@@ -19,19 +19,19 @@ export function initPagePlay(params) {
     }
   `;
 
-  
-  div.appendChild(style);
   setInterval(() => {
     style.innerHTML = `
     .computer-choices {
       display: "initial";
     }
-    `;
+  `;
   }, 4000);
-  
+
   
   setTimeout(() => {
     params.goTo("/results");
   }, 6000);
+  
+  div.appendChild(style);
   return div;
 }
