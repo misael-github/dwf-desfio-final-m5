@@ -1,4 +1,4 @@
-## Desadio final Módulo 5 
+## Piedra, papel o tijera. Desafio final Módulo 5 
 ### https://misael-github.github.io/piedra-papel-o-tijera/
 Consigna:
 
