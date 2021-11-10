@@ -3,10 +3,11 @@
   }
   
   .results {
-    padding: 35px 20px;
-    display: grid;
-    gap: 20px;
-    height: 100vh;
+    /* padding: 35px 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: 100vh; */
     width: 100%;
   }
   

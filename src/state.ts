@@ -31,18 +31,19 @@ const state = {
     for (const cb of this.listeners) {
       cb(newState);
     }
+    console.log(newState)
     localStorage.setItem("saved-state", JSON.stringify(newState));
   },
   
   setMove(move: Jugada) {
-    console.log(move)
     const currentState = this.getState();
+    // console.log(currentState.currentGame)
     currentState.currentGame.myPlay = move;
     this.setState(currentState)
   },
   // Defino lo que elige la computadora (en computer-hands)
   setComputerMove(move: Jugada) {
-    console.log(move)
+    // console.log(move)
     const currentState = this.getState();
     currentState.currentGame.computerPlay = move;
     this.setState(currentState)
