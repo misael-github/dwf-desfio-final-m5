@@ -27,10 +27,11 @@ export function initPagePlay(params) {
   `;
   }, 4000);
 
+  
+  div.appendChild(style);
+  
   setTimeout(() => {
     params.goTo("/results");
   }, 6000);
-
-  div.appendChild(style);
   return div;
 }
